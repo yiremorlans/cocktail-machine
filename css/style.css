@@ -23,7 +23,7 @@ html {
 }
 
 body {
-  background: black url('/img/clem-onojeghuo-unsplash.jpg');
+  background: black url('https://github.com/yiremorlans/cocktail-machine/blob/main/img/clem-onojeghuo-unsplash.jpg');
   background-size: 150vh;
   background-position: top;
   background-repeat: no-repeat;
