@@ -6,6 +6,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
     	<meta name="description" content="List of cocktails with names and instructions">
     	<meta name="keywords" content="drinks, alcohol, cocktail">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
 
 		<title>Cocktail Machine</title>
 
@@ -17,37 +20,38 @@
 
 	</head>
 	<body>
-		<header>
-			<span>Pick Your Poison</span>
+		<section>
+			<span>Pick Your Poison 🍹</span>
 			<input type="text" name="" value="">
 			<button type="button" name="button">Get Cocktail</button>
-		</header>
+		
 
-		<div class="swiper">
-			<!-- Additional required wrapper -->
-			<div class="swiper-wrapper">
-			  <!-- Slides -->
-			  <div class="swiper-slide">
-				  <div class="cocktail-card">
-					<h2>Name</h2>
-					<img src="https://images.squarespace-cdn.com/content/v1/54aebf00e4b0b4cef10f52f5/1503888838259-WYTJ6W7DEVNVCYV7J3VS/cocktail-shaker.gif?format=500w" alt="">
-					<p>Instructions</p>
-				  </div>
-			  </div>
-			  <div class="swiper-slide"></div>
-			  <div class="swiper-slide"></div>
+			<div class="swiper">
+				<!-- Additional required wrapper -->
+				<div class="swiper-wrapper">
+				<!-- Slides -->
+				<div class="swiper-slide">
+					<div class="cocktail-card">
+						<h1>Name</h1>
+						<img src="https://images.squarespace-cdn.com/content/v1/54aebf00e4b0b4cef10f52f5/1503888838259-WYTJ6W7DEVNVCYV7J3VS/cocktail-shaker.gif?format=500w" alt="">
+						<p>Instructions</p>
+					</div>
+				</div>
+				<div class="swiper-slide"></div>
+				<div class="swiper-slide"></div>
 
+				</div>
+				<!-- If we need pagination -->
+				<!-- <div class="swiper-pagination"></div> -->
+			
+				<!-- If we need navigation buttons -->
+				<div class="swiper-button-prev"></div>
+				<div class="swiper-button-next"></div>
+			
+				<!-- If we need scrollbar -->
+				<!-- <div class="swiper-scrollbar"></div> -->
 			</div>
-			<!-- If we need pagination -->
-			<!-- <div class="swiper-pagination"></div> -->
-		  
-			<!-- If we need navigation buttons -->
-			<div class="swiper-button-prev"></div>
-			<div class="swiper-button-next"></div>
-		  
-			<!-- If we need scrollbar -->
-			<!-- <div class="swiper-scrollbar"></div> -->
-		</div>
+		</section>
 
 		<script type="text/javascript" src="js/main.js"></script>
 		<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>

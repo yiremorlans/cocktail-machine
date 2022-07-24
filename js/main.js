@@ -24,7 +24,7 @@ function getDrink(){
             card.className = 'cocktail-card';
             slide.appendChild(card);
 
-            const drinkName = document.createElement('h2');
+            const drinkName = document.createElement('h1');
             drinkName.innerText = cocktail.strDrink;
             card.appendChild(drinkName);
 
