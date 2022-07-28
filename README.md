@@ -1,7 +1,7 @@
 # Ladies Night Cocktail Machine
 Ladies Night just got a little more interesting! This cocktail machine makes it easy to decide which drink to whip up for the next party or get together. Generate a drink list by typing an ingredient or fruity flavor like strawberry or coconut, or generate a drink list based on your liquor of choice. 
 
-**Link to project:** https://github.com/yiremorlans/cocktail-machine
+**Link to project:** https://cocktail-machine.netlify.app/
 
 ![cocktail machine web app](https://github.com/yiremorlans/yiremorlans/blob/main/cocktail.webp)
 
