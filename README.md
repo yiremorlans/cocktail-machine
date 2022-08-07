@@ -17,5 +17,5 @@ Additional features to be added in the future include an ingredients list to go 
 
 ## Lessons Learned:
 
-Incorporating a javascript plugin into a project requires rigging it up in more than one place. Functions that fetch to the API also have to reference to the swiper components in the HTML. Luckily the extensive documention provided by the Swiper JS library makes the process more approachable.
+Incorporating a javascript plugin into a project requires rigging it up in more than one place. Functions that fetch to the API also have to reference to the swiper components in the HTML. Luckily the extensive documentation provided by the Swiper JS library makes the process more approachable.
 
